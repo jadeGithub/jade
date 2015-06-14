@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+   
+   <LinearLayout 
+    android:id="@+id/wifi_x"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"  
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+   >
+      
+       <TextView 
+	     android:id="@+id/wifi1"
+	     android:layout_width="40dp"
+	     android:layout_height="wrap_content"
+	     android:text="wifi1"
+	     android:textColor="#4876FF"
+	     android:layout_weight="1"
+	     />
+        <TextView 
+	     android:id="@+id/wifi2"
+	     android:layout_width="40dp"
+	     android:layout_height="wrap_content"
+	     android:text="wifi2"
+	     android:layout_weight="1"
+	     />
+         <TextView 
+         android:id="@+id/wifi3"
+	     android:layout_width="40dp"
+	     android:layout_height="wrap_content"
+	     android:text="wifi3"
+	      android:textColor="#4876FF"
+	     android:layout_weight="1"
+	     />
+          <TextView 
+         android:id="@+id/wifi4"
+	     android:layout_width="40dp"
+	     android:layout_height="wrap_content"
+	     android:text="wifi4"
+	     android:layout_weight="1"
+	     />
+           <TextView 
+         android:id="@+id/wifi5"
+	     android:layout_width="40dp"
+	     android:layout_height="wrap_content"
+	     android:text="wifi5"
+	      android:textColor="#4876FF"
+	     android:layout_weight="1"
+	     />  
+   
+    </LinearLayout> 
+  <LinearLayout 
+    android:id="@+id/wifi_strength_x"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"  
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+     android:layout_below="@id/wifi_x"
+    >
+     
+       <TextView 
+	     android:id="@+id/wifi_strength_1"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="wifi_strength_1"
+	      android:textColor="#4876FF"
+	     android:layout_weight="1"
+	     />
+        <TextView 
+	     android:id="@+id/wifi_strength_2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="wifi_strength_2"
+	     android:layout_weight="1"
+	     />
+         <TextView 
+         android:id="@+id/wifi_strength_3"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="wifi_strength_3"
+	      android:textColor="#4876FF"
+	     android:layout_weight="1"
+	     />
+          <TextView 
+         android:id="@+id/wifi_strength_4"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="wifi_strength_4"
+	     android:layout_weight="1"
+	     />
+           <TextView 
+         android:id="@+id/wifi_strength_5"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="wifi_strength_5"
+	      android:textColor="#4876FF"
+	     android:layout_weight="1"
+	     />  
+   
+    </LinearLayout> 
+  
+</RelativeLayout>

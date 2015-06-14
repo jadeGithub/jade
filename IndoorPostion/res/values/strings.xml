@@ -2,5 +2,6 @@
 
     <string name="app_name">IndoorPostion</string>
     <string name="wifi_name">wifiName</string>
-
+     <string name="action_add_position">addPosition</string>
+      <string name="action_positioning">positioning</string>
 </resources>

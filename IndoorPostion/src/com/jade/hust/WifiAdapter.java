@@ -51,7 +51,7 @@ public class WifiAdapter extends BaseAdapter {
 		Wifi wifi=list.get(position);
 		if(view==null)
 		{
-			view=inflater.inflate(R.layout.list_item, null);
+			view=inflater.inflate(R.layout.list_item_main, null);
 			hv=new HoldView();
 			hv.imageView=(ImageView)view.findViewById(R.id.image);
 			hv.wifi_name= (TextView) view.findViewById(R.id.wifi_name);

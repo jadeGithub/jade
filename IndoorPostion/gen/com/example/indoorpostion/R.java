@@ -19,16 +19,42 @@ public final class R {
         public static final int wifi3=0x7f020005;
     }
     public static final class id {
-        public static final int image=0x7f060000;
-        public static final int singl_wifi_strenth=0x7f060001;
-        public static final int wifi_list=0x7f060003;
-        public static final int wifi_name=0x7f060002;
+        public static final int action_add=0x7f070015;
+        public static final int action_positioning=0x7f070016;
+        public static final int image=0x7f070011;
+        public static final int position_edit=0x7f070001;
+        public static final int save=0x7f070004;
+        public static final int singl_wifi_strenth=0x7f070012;
+        public static final int wifi1=0x7f070006;
+        public static final int wifi2=0x7f070007;
+        public static final int wifi3=0x7f070008;
+        public static final int wifi4=0x7f070009;
+        public static final int wifi5=0x7f07000a;
+        public static final int wifi_alert=0x7f070002;
+        public static final int wifi_list=0x7f070014;
+        public static final int wifi_list_add=0x7f070003;
+        public static final int wifi_name=0x7f070013;
+        public static final int wifi_positon=0x7f070000;
+        public static final int wifi_strength_1=0x7f07000c;
+        public static final int wifi_strength_2=0x7f07000d;
+        public static final int wifi_strength_3=0x7f07000e;
+        public static final int wifi_strength_4=0x7f07000f;
+        public static final int wifi_strength_5=0x7f070010;
+        public static final int wifi_strength_x=0x7f07000b;
+        public static final int wifi_x=0x7f070005;
     }
     public static final class layout {
-        public static final int list_item=0x7f030000;
-        public static final int mian=0x7f030001;
+        public static final int add_position=0x7f030000;
+        public static final int list_item_add=0x7f030001;
+        public static final int list_item_main=0x7f030002;
+        public static final int mian=0x7f030003;
+    }
+    public static final class menu {
+        public static final int main=0x7f060000;
     }
     public static final class string {
+        public static final int action_add_position=0x7f040002;
+        public static final int action_positioning=0x7f040003;
         public static final int app_name=0x7f040000;
         public static final int wifi_name=0x7f040001;
     }
