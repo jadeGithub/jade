@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.indoorpostion.R;
+import com.jade.hust.entity.Wifi;
 
 public class WifiAdapter extends BaseAdapter {
 	private LayoutInflater inflater;

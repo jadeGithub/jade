@@ -17,7 +17,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.jade.hust.MainActivity"
+            android:name="com.jade.hust.activity.MainActivity"
             android:label="@string/app_name" >
              <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,10 +26,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.jade.hust.AddPositionActivity"/>
-        <service 
-            android:name="com.jade.hust.PositionService"></service>
-        
+            android:name="com.jade.hust.activity.AddPositionActivity"/>        
     </application>
 
 </manifest>

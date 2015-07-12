@@ -10,12 +10,12 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.jade.hust.StoreWifi;
+import com.jade.hust.entity.StoreWifi;
 
 public class WifiDB extends SQLiteOpenHelper{
 	public static final String DB_NAME="IndoorPositioning";
 	private final boolean WRITABLE = true;
-	private final boolean READABLE = false;
+	private final boolean READABLE = true;
 	public static  WifiDB wifiDb;
 	private SQLiteDatabase db;
 	public final static int DB_VERSION = 1;
@@ -66,6 +66,7 @@ public class WifiDB extends SQLiteOpenHelper{
 	}
 	
 	public HashMap search(String searchCondition){
+		openDatabase(READABLE);
 		Cursor cursor = db.query("position", null, "wifi_name=?", new String[]{searchCondition}, null, null, null);  
 		HashMap map = new HashMap();//返回位置和信号的平均强度
 		while(cursor.moveToNext()){			

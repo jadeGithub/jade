@@ -3,6 +3,8 @@ package com.jade.hust;
 import java.io.Serializable;
 import java.util.List;
 
+import com.jade.hust.entity.Wifi;
+
 import android.app.Service;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -14,7 +16,11 @@ import android.os.IBinder;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
-
+/**
+ * 此类暂时没有使用
+ * @author jadechen
+ *
+ */
 public class WifiListenerService extends Service {
        private WifiManager wifim;
        private WifiReceiver wr;

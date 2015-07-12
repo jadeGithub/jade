@@ -5,6 +5,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+import com.jade.hust.entity.Wifi;
+
 import android.content.Context;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
@@ -34,7 +36,8 @@ public class WifiScan {
 		 for(int i=0;i<WifiList.size();i++){
 			 Wifi wifi=new Wifi();
 			 wifi.setSSID(WifiList.get(i).SSID);
-			 wifi.setLEVEL(WifiList.get(i).level);			 
+			 wifi.setLEVEL(WifiList.get(i).level);	
+			 wifi.setBSSID(WifiList.get(i).BSSID);
 			 list.add(wifi);
 		 }
 		 Collections.sort(list, new Comparator<Wifi>(){
